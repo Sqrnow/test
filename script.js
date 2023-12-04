@@ -7,7 +7,7 @@ function findNaughtyStep(original, modified) {
     m = modified.split('')
   }
   
-  console.log(o, m)
+  console.log(o, m, 'hy')
   console.log(o.length, m.length)
   return o.find((elem, index) => 
     m[index] != elem) ?? ''
